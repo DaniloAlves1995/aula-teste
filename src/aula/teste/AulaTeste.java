@@ -15,7 +15,10 @@ public class AulaTeste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Calculadora c = new Calculadora();
+        double soma = c.Somar(4, 5);
+        
+        System.out.println("Resultado da soma = "+soma);
     }
     
 }
